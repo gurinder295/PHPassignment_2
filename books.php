@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-require 'db_connect.php'; // Include database connection file
+require 'db.php'; // Include database connection file
 
 // Initialize variables
 $categories = [];
